@@ -1,0 +1,4 @@
+[datos_correctos.xml] ✅ Conversión XML a JSON realizada con éxito.
+[AUDITORÍA FALLO] Fallo crítico de parsing en: datos_corruptos.xml
+[datos_correctos.xml] ✅ Conversión XML a JSON realizada con éxito.
+[AUDITORÍA FALLO] Fallo crítico de parsing en: datos_corruptos.xml

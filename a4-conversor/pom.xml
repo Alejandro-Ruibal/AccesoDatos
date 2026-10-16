@@ -1,0 +1,26 @@
+<project xmlns="http://apache.org"
+         xmlns:xsi="http://w3.org"
+         xsi:schemaLocation="http://apache.org http://apache.org">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ad.ud1</groupId>
+  <artifactId>a4-conversor</artifactId>
+  <version>1.0</version>
+ 
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+ 
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.5.0</version>
+        <configuration>
+          <mainClass>ad.ud1.Conversor</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
